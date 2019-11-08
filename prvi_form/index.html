@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form class="" action="processing.php" method="post">
+      <textarea name="ime" rows="3" cols="10" placeholder="Ime"></textarea><br>
+      <textarea name="prezime" rows="3" cols="10" placeholder="Prezime"></textarea><br>
+      <input type="radio" name="skola" id="sk1" value="da">
+      <label for="sk1">Da</label>
+      <input type="radio" name="skola" id="sk2" value="ne">
+      <label for="sk2">Ne</label>
+      <br>
+      <br>
+      <label for="oib">Oib</label>
+      <input type="password" name="oib" value="">
+      <br>
+      <br>
+      <select multiple class="" name="predmeti[]">
+        <option value="MTV">MTV</option>
+        <option value="PI">PI</option>
+        <option value="IS">IS</option>
+        <option value="IT">IT</option>
+      </select>
+      <br>
+      <br>
+      <select class="" name="boja">
+        <option value="Plava">Plava</option>
+        <option value="Crvena">Crvena</option>
+        <option value="Zuta">Zuta</option>
+        <option value="Roza">Roza</option>
+      </select>
+      <br>
+      <button type="submit" name="button">Pošalji</button>
+    </form>
+  </body>
+</html>
