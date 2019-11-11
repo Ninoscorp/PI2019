@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form class="" action="obrada.php" method="post">
+      <label for="ime">Ime: </label>
+      <input type="text" name="ime" value="">
+      <br>
+      <label for="prezime">Prezime: </label>
+      <input type="text" name="prezime" value="">
+      <br>
+      <label for="datum">Godina rođenja: </label>
+      <input type="date" name="datum" value="">
+      <br>
+      <br>
+      Obrazovanje:
+      <br>
+      Gimnazija
+      <input type="radio" name="skola" value="Gimnazija">
+      <br>
+      Strukovna
+      <input type="radio" name="skola" value="Strukovna">
+      <br>
+      <br>
+      <label for="adresa">Adresa</label>
+      <input type="text" name="adresa" value="" maxlength="90">
+      <br>
+      <br>
+      Spol:
+      <br>
+      <label for="Muško">Muško</label>
+      <input type="radio" name="spol" value="Muško">
+      <br>
+      <label for="Žensko">Žensko</label>
+      <input type="radio" name="spol" value="Žensko">
+      <br>
+      <label for="Transseksualac">Transseksualac</label>
+      <input type="radio" name="spol" value="Transseksualac">
+      <br>
+      <label for="Metroseksualac">Metroseksualac</label>
+      <input type="radio" name="spol" value="Metroseksualac">
+      <br>
+      <label for="Ostalo">Ostalo</label>
+      <input type="radio" name="spol" value="Ostalo">
+      <br>
+      <br>
+      <label for="grad">Grad: </label>
+      <select class="" name="grad">
+        <option value="Zagreb">Zagreb</option>
+        <option value="Varaždin">Varaždin</option>
+        <option value="Osijek">Osijek</option>
+        <option value="Rijeka">Rijeka</option>
+        <option value="Zadar">Zadar</option>
+      </select>
+      <br>
+      <br>
+      <label for="hobiji">Hobiji</label>
+      <br>
+      <select class="" name="hobiji[]" multiple>
+        <option value="Programiranje">Programiranje</option>
+        <option value="Modeliranje">Modeliranje</option>
+        <option value="Cjepanje drva">Cjepanje drva</option>
+        <option value="Šak">Šak</option>
+        <option value="Streličarstvo">Streličarstvo</option>
+      </select>
+      <br>
+      <br>
+      <textarea name="napomena" rows="8" cols="20" placeholder="napomena"></textarea>
+      <br>
+      <input type="submit" name="" value="Posalji">
+    </form>
+  </body>
+</html>
