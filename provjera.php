@@ -34,11 +34,11 @@ $yolo = array(
     <title></title>
   </head>
   <body>
-    <?php if(isset($ime)) echo $ime; else{?>
+    <?php if(isset($ime) && preg_match("\w+)\.(\w+)@(\w+)\.(\w{0,3})")) echo "ime i prezime: ".$ime." postoji"; else{?>
       <form class="" action="provjera.php" method="post">
         <label for="ime">Ime i prezime</label>
         <input type="text" name="ime" value="">
-        <input type="submit" name="" value="">
+        <input type="submit" name="" value="Pogledaj">
       </form>
 
     <?php } ?>
