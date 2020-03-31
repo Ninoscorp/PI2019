@@ -33,16 +33,4 @@ $link = mysqli_connect("localhost", "root", "", "classicmodels");
        mysqli_close($link);
      }else
      ?>
-     <!DOCTYPE html>
-     <html lang="en" dir="ltr">
-       <head>
-         <meta charset="utf-8">
-         <title></title>
-       </head>
-       <body>
-         <form class="" action="zadatak2.php" method="post">
-           <input type="text" name="queryTextBox" value="" width="300">
-           <input type="submit" name="" value="posalji upit  ">
-         </form>
-       </body>
-     </html>
+     
